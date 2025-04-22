@@ -2,9 +2,9 @@ for i in range(10):
     numero = int(input(f"Digite o {i+1}º número: "))
     
     if numero % 2 == 0:
-        print(f"O número {numero} é par.")
+        print(f"\nO número {numero} é par.")
     else:
-        print(f"O número {numero} é ímpar.")
+        print(f"\nO número {numero} é ímpar.")
 
 '''while parar < 11:
     if insereNum % 2 == 0:
