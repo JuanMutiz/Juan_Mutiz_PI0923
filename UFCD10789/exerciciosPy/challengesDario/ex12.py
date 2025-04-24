@@ -14,13 +14,15 @@ while True:
     for i in range(1, num):
         print(f"{num} + {i} = {num + i}")
         operacoes += 1
+
         print(f"{num} - {i} = {num - i}")
         operacoes += 1
+
         print(f"{num} * {i} = {num * i}")
         operacoes += 1
-        print(f"{num} / {i} = {num / i}")
-        operacoes += 1
-        print()
 
-    print(f"Total de operações efetuadas: {operacoes}")
+        print(f"{num} / {i} = {num / i:.2f}")
+        operacoes += 1
+
+    print(f"\nTotal de operações efetuadas: {operacoes}")
     break
