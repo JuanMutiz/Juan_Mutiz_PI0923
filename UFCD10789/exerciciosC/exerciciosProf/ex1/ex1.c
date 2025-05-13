@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main (){
-int ns;
+int segs, mins, horas;
 
 printf("Segundos: ");
-scanf("%d",&ns);
+scanf("%d",&segs);
 
-int nm=ns/60;
-int nh=nm/60;
+int mins=segs/60;
+int horas=mins/60;
 
-printf("segundos: %d,minutos: %d,Horas:%d",ns,nm,nh);
+printf("segundos: %d,minutos: %d,Horas:%d",segs,mins,horas);
 
 
 }
